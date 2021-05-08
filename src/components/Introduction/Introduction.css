@@ -4,6 +4,18 @@
     background-color: #e2eafc ;
 }
 
+.introduction{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    height: 50vh;
+    width: 50vw;
+    /* background-color: aqua; */
+    /* margin-top: 40%; */
+    padding: 15%;
+    font-size: 2.0rem;
+}
+
 
 /*
 Ice color palette
