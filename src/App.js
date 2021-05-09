@@ -7,11 +7,17 @@ import Contact from './components/Contact/Contact';
 import { Parallax } from 'react-parallax';
 import styled from 'styled-components';
 
+
+
+
+
 function App() {
+
+
   return (
     <div className="app-container">
     <Parallax>
-      <Navigation/>
+      <Navigation />
       <Introduction/>
       <About/>
       <Projects />

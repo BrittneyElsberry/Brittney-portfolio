@@ -1,0 +1,131 @@
+@import '../../SCSS/_variables.scss';
+
+
+
+
+.nav-container{
+    height: 10vh;
+    background-color:#abc4ff;
+    width: 100vw;
+}
+
+
+
+
+/*
+
+
+color palette 
+orange #E36414 
+purple #9d4edd
+
+blue: #00afb9
+
+gray: #d9d9d9
+coral: #f07167
+off-white: #f8edeb
+
+*/
+
+
+/*
+Ice color palette
+light: #edf2fb
+medium light #e2eafc
+dark light #d7e3fc
+light dark #c1d3fe
+medium dark #b6ccfe
+Dark #abc4ff
+*/
+
+
+
+@include breakpoints(phone){
+
+    @media (min-width: $breakpoint-phone) and (max-width: $breakpoint-large-phone){
+
+        .nav-container{
+            font-size: 30px;
+        }
+
+        .is-not-mobile{
+            display: none;
+        }
+
+        .ham-btn{
+            // height: 200px;
+            // width: 200px;
+            // font-size: 30px;
+            margin-left: 10px;
+        }
+       
+    }
+    
+   
+}
+
+
+
+
+    @include breakpoints(tablet){
+
+        @media(min-width: $breakpoint-large-phone) and (max-width: $breakpoint-tablet){
+
+            .ham-btn{
+                display: none;
+            }
+    
+    }
+
+
+    }
+
+
+    @include breakpoints(ipad){
+        @media(min-width: $breakpoint-tablet) and (max-width: $breakpoint-laptop){
+            .ham-btn{
+                display: none;
+            }
+
+        
+
+        }
+    }
+    
+
+
+    @include breakpoints(laptop){
+
+        @media(min-width: $breakpoint-tablet) and (max-width: $breakpoint-laptop){
+    
+            .ham-btn{
+                display: none;
+            }
+
+
+        }
+    
+    
+      
+    
+    }    
+
+
+
+
+@include breakpoints(desktop){
+
+    @media(min-width: $breakpoint-laptop) and (max-width: $breakpoint-desktop){
+
+        .ham-btn{
+            display: none;
+        }
+
+    }
+
+
+ 
+
+
+}
+

@@ -1,0 +1,28 @@
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+/* this code is to inherit the box-sizing for every element */
+
+*, *::before, *::after{
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    /* add which font i want to use*/
+
+}
+
+/*
+To do's
+
+-add the google font i want to use in the HTML file, copy link tag and put in index.htmal above the title in the link tag href="link" 
+
+-add link rel='stylesheet href='/dist/style.css' -- this might not be necessary. i don't think she's using react
+
+
+*/
