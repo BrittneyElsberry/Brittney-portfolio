@@ -1,4 +1,4 @@
-// import './About.scss'
+import './About.css'
 import styled from 'styled-components';
 
 const About = ()=>{
@@ -7,9 +7,14 @@ const About = ()=>{
         <div className='about-container'>
             <Card>
                         <div className='container' >
+                            <div className='about-text-container'>
+
+                            <p>About Me:</p>
                             <div className='profile-image'>
                             </div>
-                            <p>About Me:</p>
+
+
+                            </div>
                     
                         </div>
                 
@@ -45,8 +50,7 @@ const Card = styled.div`
       justify-content: center;
       margin: auto;
       padding: 10%;
-      border-radius: 25%;
-      background-color:  #edf2fb;
+    
       height: 50%;
       width: 50%;
    
@@ -79,32 +83,30 @@ const Card = styled.div`
         margin: auto;
     }
     
-    .container{
-      display: flex;
-      justify-content: center;
-      margin: auto;
-      padding: 10%;
-      border-radius: 25%;
-      background-color:  #edf2fb;
-      height: 50%;
-      width: 50%;
-   
-     
+
+
+    .about-text-container{
+        background-color:  #edf2fb;
+        border: 4px solid white;
+        height: 100%;
+        width: 100%;
     }
+
+
     .profile-image{
         display: flex;
         justify-content: center;
         margin: auto;
         height: 50%;
         width: 100%;
-        background-color: orange;
-        background: url('profile-pic-try-again.jpg');
+       
     }
     
     .container{
-        height: 50vh;
-        width: 90%;
-        background-color: blue;
+        height: 100vh;
+        width: 100vw;
+        background-color: #001219;
+     
     }
 
 

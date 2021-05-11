@@ -1,0 +1,65 @@
+.introduction-container{
+    background: url('hana-backyard-resized.png');
+    height: 200vh;
+    width: 100vw;
+    /* box-sizing: border-box; */
+    display: flex;
+    flex-direction: column;
+  
+    
+}
+
+
+@media screen and (min-width: 200px) and (max-width: 520px){ 
+    .introduction-container{
+        background: url('hana-backyard-resized.png') no-repeat center center fixed;
+        
+    }
+
+}
+
+
+@media screen and (min-width: 520px) and (max-width: 1000px){
+    .introduction-container{
+        background: url('hana-backyard-resized.png') no-repeat center center fixed;
+        
+    }
+
+    .picture-container{
+        background-image: url('profile-pic-thumbnail-2.jpg');
+        background-position: center;
+        height: 50%;
+        width: 100%;
+        border-radius: 60%;
+    }
+
+
+}
+
+
+
+@media screen and (min-width: 1000px) and (max-width: 1400px){
+    .introduction-container{
+        background: url('hana-backyard-resized.png') no-repeat center center fixed;
+        
+    }
+
+
+}
+
+
+@media screen and (min-width: 1400px) and (max-width: 2000px){
+
+    .introduction-container{
+        background: url('hana-backyard-resized.png') no-repeat center center fixed;
+        
+    }
+}
+
+@media screen and (min-width: 2000px) and (max-width: 3500px){
+    .introduction-container{
+        background: url('hana-backyard.png') no-repeat center center fixed;
+        
+    }
+
+}
