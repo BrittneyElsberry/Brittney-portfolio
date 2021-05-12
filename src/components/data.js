@@ -3,7 +3,7 @@ export const projectsData = [
         id: 1,
         img: 'landing-final.JPG',
         title: 'WORKit',
-        info: 'A circuit training fitness application designed for the Iphone X in React. React hooks, Spotify API integration, Paypal, Bcrypt Authentication, Styled Components, and CSS.',
+        info: ['React hooks', 'Spotify API integration', 'Paypal', 'Bcrypt Authentication', 'Styled Components', 'CSS'],
         info2: 'Developers: Brittney Elsberry and Stacy Grenier. DevMountain final project.',
         url: 'https://www.youtube.com/watch?v=_JRbD6HcLXw',
         repo: 'https://github.com/Sngrenier/Workit'

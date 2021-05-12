@@ -171,16 +171,16 @@ const Card = styled.div`
       justify-content: center;
       align-items: center;
       font-weight: bold;
-        margin-left: 67%;
+        margin-left: 70%;
         height: 30vh;
-        margin-top: 10%;
+        margin-top: 1%;
       width: 25vw;
       padding: 2%;
       background-color:  #edf2fb;
       color: #001219;
     //   color: #00a896; 
       font-size: 1.20rem;
-      border: 0.04rem solid rgba(0,0,0,0.2);
+      border: .06rem solid #001219;
       box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.2);
  
      

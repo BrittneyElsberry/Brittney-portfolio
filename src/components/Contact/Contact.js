@@ -34,8 +34,8 @@ const Card = styled.div`
   padding: 10%;
   border-radius: 25%;
   background-color:  #edf2fb;
-  height: 50%;
-  width: 50%;
+  height: 10%;
+  width: 10%;
 
 }
 

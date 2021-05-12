@@ -1,6 +1,6 @@
 .introduction-container{
     background: url('hana-backyard-resized.png');
-    height: 200vh;
+    height: 100vh;
     width: 100vw;
     /* box-sizing: border-box; */
     display: flex;
@@ -28,9 +28,9 @@
     .picture-container{
         background-image: url('profile-pic-thumbnail-2.jpg');
         background-position: center;
-        height: 50%;
+        height: 100%;
         width: 100%;
-        border-radius: 60%;
+        border-radius: 50%;
     }
 
 

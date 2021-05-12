@@ -11,11 +11,12 @@ const Projects = () =>{
     return (
         <div className='projects-container'>
                 <Card>
+
                 {projectsData.map((elem)=>{
                     return <div key={elem.id} className='container'> 
                               <h2>{elem.title}</h2> 
                               <br></br>
-                              <span>{elem.info}</span>  
+                              
                                <a className='demo-btn'
                                     href={elem.url}>
                                 Demo
@@ -23,12 +24,26 @@ const Projects = () =>{
                                </a>
                             <div className='img-container'>
                             <img src={elem.img} height='300px' width='auto' alt='Project'/>
-                            </div>    
-                                
+                            </div>
+
+                           <div className='technologies-list'>
+                              <li key={elem.index}>{elem.info[0]}</li>  
+                              <li key={elem.index}>{elem.info[1]}</li>  
+                              <li key={elem.index}>{elem.info[2]}</li>  
+                              <li key={elem.index}>{elem.info[3]}</li>  
+                              <li key={elem.index}>{elem.info[4]}</li>  
+                              <li key={elem.index}>{elem.info[5]}</li>  
+                             
+
+                           </div>
                             </div>
                             
 
                 })}
+
+
+           
+
                 </Card>
 
             
@@ -45,10 +60,7 @@ const Card = styled.div`
     flex-direction: column;
     margin: auto;
     padding: 10%;
-    border-radius: 25%;
-    background-color:  #edf2fb;
-    height: 50%;
-    width: 50%;
+  
    
   }
 
@@ -70,33 +82,44 @@ const Card = styled.div`
         padding: 10%;
         border-radius: 25%;
         background-color:  #edf2fb;
-        height: 50%;
-        width: 50%;
+        height: 20vh;
+        width: 50vw;
+      
        
       }
 
 
-      @media screen and (min-width: 520px) and (max-width: 1800px) {
-        .container{
-            display: flex;
-            justify-content: center;
-            margin: auto;
-            padding: 10%;
-            border-radius: 25%;
-            background-color:  #edf2fb;
-            height: 50%;
-            width: 50%;
-           
-          }
-
-}
-
-
-@media screen and (min-width: 200px) and (max-width: 520px){ }
 
 
 @media screen and (min-width: 520px) and (max-width: 1000px){
 
+  .projects-container{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+  
+  }
+
+  .container{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 1%;
+    border-radius: 25%;
+    height: 50vh;
+    width: 40vw;
+   
+  }
+
+  .img-container{
+    border: 12px solid yellow;
+  }
+
+
+  .technologies-list{
+    list-style: none;
+    border: 2px solid black;
+  }
 }
 
 
